@@ -11,12 +11,6 @@
 
 **[✨ Live Demo](https://deep-seek-ai-by-shweta-j.vercel.app/) • [📖 Documentation](#-features) • [🚀 Quick Start](#-getting-started)**
 
----
-
-![DeepSeek AI Clone Banner](https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=400&fit=crop&q=80)
-
-*Experience the future of conversational AI with a sleek, responsive interface that rivals the best in class.*
-
 </div>
 
 ---
@@ -147,28 +141,34 @@ Make sure you have these installed:
 
 Follow these steps to run the project locally:
 
+
+# 1️⃣ Clone the repository 
 ```bash
-# 1️⃣ Clone the repository
 git clone https://github.com/heyitsj-git/DeepSeek-AI-Clone-by-Shweta-Jha.git
+```
 
-# 2️⃣ Navigate to the project directory
+# 2️⃣ Navigate to the project directory 
+```bash
 cd DeepSeek-AI-Clone-by-Shweta-Jha
-
-# 3️⃣ Install dependencies
+``` 
+# 3️⃣ Install dependencies 
+```bash
 npm install
 # or
 yarn install
 # or
 pnpm install
-
-# 4️⃣ Set up environment variables
+``` 
+# 4️⃣ Set up environment variables 
+```bash
 # Create a .env.local file in the root directory
 # Add your API keys and configuration:
 
 # NEXT_PUBLIC_API_KEY=your_api_key_here
 # NEXT_PUBLIC_API_URL=your_api_url_here
-
+```
 # 5️⃣ Run the development server
+```bash
 npm run dev
 # or
 yarn dev
