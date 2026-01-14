@@ -223,25 +223,30 @@ The easiest way to deploy your Next.js app is through Vercel's GitHub integratio
 
 ### Method 2: Deploy via Vercel CLI
 
-```bash
+
 # 1️⃣ Install Vercel CLI globally
+```bash
 npm i -g vercel
-
+```
 # 2️⃣ Login to Vercel
+```bash
 vercel login
-
+```
 # 3️⃣ Deploy from your project directory
+```bash
 vercel
-
+```
 # 4️⃣ Follow the prompts:
+```bash
 # - Set up and deploy? Yes
 # - Which scope? (Select your account)
 # - Link to existing project? No
 # - What's your project's name? deepseek-ai-clone
 # - In which directory is your code located? ./
 # - Want to override the settings? No
-
+```
 # 5️⃣ Deploy to production
+```bash
 vercel --prod
 ```
 
@@ -290,19 +295,6 @@ Edit the CSS variables in `app/globals.css`:
 
 ---
 
-## 📸 Screenshots
-
-<div align="center">
-
-### Desktop View
-![Desktop Screenshot](https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=500&fit=crop&q=80)
-
-### Mobile View
-![Mobile Screenshot](https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=600&fit=crop&q=80)
-
-</div>
-
----
 
 ## 🤝 Contributing
 
